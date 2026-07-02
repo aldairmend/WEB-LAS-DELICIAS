@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Delicias - Pastelería y Repostería</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Georgia', serif; background-color: #fdf6ee; color: #4a2e1a; }
+        header { background-color: #fdf6ee; text-align: center; padding: 40px 20px 20px; border-bottom: 2px solid #c8a97e; }
+        header img { width: 280px; margin-bottom: 10px; }
+        nav { background-color: #7b3f1e; display: flex; justify-content: center; gap: 40px; padding: 14px; }
+        nav a { color: #fdf6ee; text-decoration: none; font-size: 15px; letter-spacing: 1px; text-transform: uppercase; }
+        nav a:hover { color: #f0c98a; }
+        .hero { text-align: center; padding: 60px 20px; background-color: #f5e6d3; }
+        .hero h1 { font-size: 38px; color: #7b3f1e; margin-bottom: 16px; }
+        .hero p { font-size: 17px; max-width: 650px; margin: 0 auto 30px; line-height: 1.8; color: #5a3a1a; }
+        .hero a { background-color: #7b3f1e; color: #fdf6ee; padding: 12px 30px; text-decoration: none; border-radius: 4px; font-size: 15px; letter-spacing: 1px; }
+        .hero a:hover { background-color: #5a2e12; }
+        .productos { padding: 60px 40px; text-align: center; }
+        .productos h2 { font-size: 28px; color: #7b3f1e; margin-bottom: 40px; letter-spacing: 1px; }
+        .cards { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+        .card { background-color: #fff8f0; border: 1px solid #e0c9a8; border-radius: 8px; padding: 30px 24px; width: 220px; text-align: center; }
+        .card .icono { font-size: 40px; margin-bottom: 14px; }
+        .card h3 { font-size: 17px; color: #7b3f1e; margin-bottom: 8px; }
+        .card p { font-size: 14px; color: #7a5c3a; line-height: 1.6; }
+        .contacto { background-color: #f5e6d3; padding: 60px 20px; text-align: center; }
+        .contacto h2 { font-size: 28px; color: #7b3f1e; margin-bottom: 20px; }
+        .contacto p { font-size: 16px; color: #5a3a1a; margin-bottom: 8px; line-height: 1.8; }
+        footer { background-color: #7b3f1e; color: #fdf6ee; text-align: center; padding: 20px; font-size: 13px; letter-spacing: 1px; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo Las Delicias">
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section class="hero" id="inicio">
+        <h1>Bienvenidos a Las Delicias</h1>
+        <p>Un sitio web es un conjunto de páginas conectadas entre sí que se pueden ver desde cualquier dispositivo con acceso a internet. Las Delicias usa este espacio para mostrar sus productos de pastelería y repostería, sus ubicaciones y toda la información que necesitas para visitarnos.</p>
+        <a href="#productos">Ver productos</a>
+    </section>
+    <section class="productos" id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="icono">🎂</div>
+                <h3>Tortas</h3>
+                <p>Tortas personalizadas para cada ocasión especial.</p>
+            </div>
+            <div class="card">
+                <div class="icono">🍰</div>
+                <h3>Pasteles</h3>
+                <p>Pasteles frescos elaborados con los mejores ingredientes.</p>
+            </div>
+            <div class="card">
+                <div class="icono">🍪</div>
+                <h3>Galletas</h3>
+                <p>Galletas artesanales en distintos sabores y presentaciones.</p>
+            </div>
+            <div class="card">
+                <div class="icono">🧁</div>
+                <h3>Cupcakes</h3>
+                <p>Cupcakes decorados para cualquier celebración.</p>
+            </div>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <h2>Contáctanos</h2>
+        <p>📍 Visítanos en nuestras tiendas</p>
+        <p>📞 +51 999 999 999</p>
+        <p>📧 contacto@lasdelicias.com</p>
+    </section>
+    <footer>
+        <p>© 2026 Las Delicias - Pastelería y Repostería. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
